@@ -7,6 +7,6 @@ target 'MovieTracker' do
 
   # Pods for MovieTracker
 	pod 'TMDBSwift'
-	pod 'ObjectMapper'
+	pod 'Kingfisher'
 
 end
