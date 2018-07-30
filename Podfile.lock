@@ -1,15 +1,15 @@
 PODS:
-  - ObjectMapper (2.2.6)
+  - Kingfisher (3.7.1)
   - TMDBSwift (0.3.0)
 
 DEPENDENCIES:
-  - ObjectMapper
+  - Kingfisher
   - TMDBSwift
 
 SPEC CHECKSUMS:
-  ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  Kingfisher: c09cece8e201b6abd7b6866ea26f73b2379208d2
   TMDBSwift: 47fe9253d0b9bbad8120a6378da2162c8d428bab
 
-PODFILE CHECKSUM: 08c9da4969e221f9847c31bdeed92327918b9082
+PODFILE CHECKSUM: 5a3856f308838fbc7fac95bc907404ee6f1ba007
 
 COCOAPODS: 1.2.1

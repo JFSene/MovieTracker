@@ -11,7 +11,8 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 
 */
 
-import Foundation
+import UIKit
+import Kingfisher
 
 class Movie {
 	let results: [Result]?
@@ -50,12 +51,14 @@ class Result {
 	let originalLanguage: String?
 	let originalTitle: String?
 	let genreIDS: [Int]?
+	let genreName: String?
 	let backdropPath: String?
 	let adult: Bool?
 	let overview: String?
 	let releaseDate: String?
+	let imageURL: String?
 
-	init(voteCount: Int?, id: Int?, video: Bool?, voteAverage: Double?, title: String?, popularity: Double?, posterPath: String?, originalLanguage: String?, originalTitle: String?, genreIDS: [Int]?, backdropPath: String?, adult: Bool?, overview: String?, releaseDate: String?) {
+	init(voteCount: Int?, id: Int?, video: Bool?, voteAverage: Double?, title: String?, popularity: Double?, posterPath: String?, originalLanguage: String?, originalTitle: String?, genreIDS: [Int]?, genreName: String, backdropPath: String?, adult: Bool?, overview: String?, releaseDate: String?, imageURL: String?) {
 		self.voteCount = voteCount
 		self.id = id
 		self.video = video
@@ -66,9 +69,11 @@ class Result {
 		self.originalLanguage = originalLanguage
 		self.originalTitle = originalTitle
 		self.genreIDS = genreIDS
+		self.genreName = genreName
 		self.backdropPath = backdropPath
 		self.adult = adult
 		self.overview = overview
 		self.releaseDate = releaseDate
+		self.imageURL = imageURL
 	}
 }
